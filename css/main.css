@@ -19,3 +19,18 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+li {
+  display: inline;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+.banner-text {
+  font-size: 3rem;
+}
+
+.logo {
+  position: absolute;
+  float: left;
+}
