@@ -73,12 +73,12 @@ nav ol {
 }
 
 .nav a:hover {
-  color: yellow;
-  background-color: pink;
+  color: grey;
+  background-color: beige;
 }
 
 header {
-    background-color: #3F4043;
+    background-color: green;
     margin: 0;
 }
 
@@ -90,7 +90,7 @@ header h1 {
   display: inline-block;
   padding: 0;
   font-weight: lighter;
-  color: #B9B5B4;
+  color: green;
 }
 
 .banner-text {
@@ -109,7 +109,7 @@ header h1 {
 .banner-bottom {
   display: block;
   text-align: center;
-  color: #698083;
+  color: green;
   font-size: 1.4rem;
   line-height: 1.9rem;
 }
@@ -129,15 +129,15 @@ header h1 {
 
 .banner {
   display: block;
-  background-color: #231F20;
+  background-color: beige;
 }
 
 .btn {
   display: inline-block;
   font-size: 1.125rem;
   text-align: center;
-  color: #698083;
-  background-color: #B9B5B4;
+  color: green;
+  background-color: orange;
   margin-top: 1.3rem;
   margin-bottom: 2.6rem;
   padding: .5rem 2.6rem;
@@ -145,7 +145,7 @@ header h1 {
 }
 
 .btn:hover {
-  background-color: #3F4043;
+  background-color: lightgreen;
 }
 
 .cards {
@@ -156,7 +156,7 @@ header h1 {
 }
 
 .cards a p {
-  color: #698083;
+  color: beige;
   text-decoration: none;
 }
 
@@ -170,12 +170,12 @@ header h1 {
 .card-4 {
   float: left;
   width: 50%;
-  background-color: #b9b5b4;
+  background-color: orange;
   padding-bottom: 1.35rem;
 }
 
 .deal-of-the-week {
-  background-color: #3f4043;
+  background-color: green;
   float: left;
   width: 100%;
 }
@@ -184,7 +184,7 @@ h2 {
   margin: 0;
   padding: 13px;
   text-decoration: none;
-  color: #b9915c;
+  color: green;
 }
 
 .dow-content {
@@ -208,7 +208,7 @@ h2 {
 }
 
 .healthy-options {
-  background-color: #b9b5b4;
+  background-color: beige;
   width: 100%;
   clear:both;
   overflow: hidden;
@@ -217,7 +217,7 @@ h2 {
 .menu {
   overflow: hidden;
   clear: both;
-  background-color: #b9b5b4;
+  background-color: beige;
 }
 
 .icon {
@@ -266,7 +266,7 @@ h2 {
 
 
 .chefs-choice {
-  background-color: orange;
+  background-color: beige;
   float: left;
   width: 100%;
 }
@@ -289,7 +289,7 @@ h2 {
   height: 50%;
   float: left;
   display: inline-block;
-  padding-bottom: 21px;
+  padding-bottom: 20px;
 }
 .chefs-choice p {
   padding: 0px 21px 13px 21px;
@@ -336,7 +336,7 @@ h2 {
   text-align: center;
   clear: both;
   width: 100%;
-  padding: 13px;
+  padding: 12.3px;
   margin: auto;
   display: block;
 }
@@ -353,7 +353,7 @@ footer {
 @media only screen and (min-width: 25em) {
 
   .banner-bottom p {
-    margin-top: 1.4rem;
+    margin-top: 1.5rem;
   }
 
   .cards {
@@ -366,7 +366,7 @@ footer {
   .card-4 {
     float: left;
     width: 50%;
-    padding-bottom: 1.3rem;
+    padding-bottom: 1.28rem;
   }
 
   .card-1 a {
@@ -374,7 +374,7 @@ footer {
   }
 
   .icon-group-item {
-    background-color: pink;
+    background-color: beige;
   }
 
 }
@@ -411,7 +411,7 @@ footer {
   }
 
   .fbook-icon {
-    margin: 6px;
+    margin: 5.5px;
   }
 
   .nav {
@@ -429,7 +429,7 @@ footer {
 
   html {
       font-size: 120%;
-      line-height: 1.4;
+      line-height: 1.6;
     }
     .card-1,
     .card-2,
@@ -445,7 +445,16 @@ footer {
       display: none;
     }
 
+    nav {
+      float: right;
+    }
+
+    header h1 {
+     float: left;
+   }
+
     .nav {
+      padding-top: .6rem;
       display: block;
     }
 
