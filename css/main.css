@@ -23,7 +23,7 @@ body {
 
 nav a {
   text-decoration: none;
-  color: #698083;
+  color: orange;
   display: block;
   padding-bottom: .5em;
   padding-right: .75em;
@@ -60,7 +60,7 @@ nav ol {
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: red;
+  background-color: green;
 }
 
 .nav-label img {
@@ -130,4 +130,347 @@ header h1 {
 .banner {
   display: block;
   background-color: #231F20;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  text-align: center;
+  color: #698083;
+  background-color: #B9B5B4;
+  margin-top: 1.3rem;
+  margin-bottom: 2.6rem;
+  padding: .5rem 2.6rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #3F4043;
+}
+
+.cards {
+  background-color: grey;
+  text-align: center;
+  overflow: hidden;
+  display: none;
+}
+
+.cards a p {
+  color: #698083;
+  text-decoration: none;
+}
+
+.cards img {
+  max-width: 80px;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  float: left;
+  width: 50%;
+  background-color: #b9b5b4;
+  padding-bottom: 1.35rem;
+}
+
+.deal-of-the-week {
+  background-color: #3f4043;
+  float: left;
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+  padding: 13px;
+  text-decoration: none;
+  color: #b9915c;
+}
+
+.dow-content {
+  width: 50%;
+  margin: 0;
+  float: left;
+  display: inline-block;
+}
+
+.dow-img-flex {
+  width: 50%;
+  height: 50%;
+  float: right;
+  display: inline-block;
+  padding-bottom: 21px;
+}
+
+.deal-of-the-week p {
+  padding: 0px 21px 13px 21px;
+  margin: 0;
+}
+
+.healthy-options {
+  background-color: #b9b5b4;
+  width: 100%;
+  clear:both;
+  overflow: hidden;
+}
+
+.menu {
+  overflow: hidden;
+  clear: both;
+  background-color: #b9b5b4;
+}
+
+.icon {
+  display: block;
+  width: 100%;
+}
+
+.icon-group {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.icon-group-item {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  margin: .3em;
+  width: 97%;
+  padding: .5em;
+  padding-bottom: 1.3rem;
+  background-color: green;
+  color: orange;
+  text-align: left;
+}
+
+.icon-group-image {
+  display: inline-block;
+  margin-right: .4em;
+  width: 64px;
+  vertical-align: middle;
+}
+
+.icon-group-body {
+  display: inline-block;
+  width: calc(100% - 64px - .8em);
+  vertical-align: middle;
+}
+
+.icon-group-title {
+  display: block;
+}
+
+
+.chefs-choice {
+  background-color: orange;
+  float: left;
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+  padding: 13px;
+  text-decoration: none;
+}
+
+.cc-content {
+  width: 50%;
+  margin: 0;
+  float: right;
+  display: inline-block;
+}
+
+.cc-img-flex {
+  width: 50%;
+  height: 50%;
+  float: left;
+  display: inline-block;
+  padding-bottom: 21px;
+}
+.chefs-choice p {
+  padding: 0px 21px 13px 21px;
+  margin: 0;
+}
+
+.hours {
+  float: left;
+  display: inline-block;
+  background-color: green;
+  width: 50%;
+  padding-bottom: 80px;
+  min-height: 200px;
+}
+
+.fbook-icon {
+  width: 30px;
+}
+
+.location {
+  text-align: right;
+  float: right;
+  display: inline-block;
+  width: 50%;
+  min-height: 200px;
+  background-color: #red;
+}
+
+.location p {
+  padding: 0px 21px 13px 21px;
+  margin: 0;
+}
+
+.hours p {
+  padding: 0px 21px 13px 21px;
+  margin: 0;
+}
+
+.social-media {
+  background-color: beige;
+}
+
+.social-media-buttons {
+  text-align: center;
+  clear: both;
+  width: 100%;
+  padding: 13px;
+  margin: auto;
+  display: block;
+}
+
+.fbook-icon {
+  margin: 20px;
+  margin-top: 0px;
+}
+
+footer {
+  clear: both;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner-bottom p {
+    margin-top: 1.4rem;
+  }
+
+  .cards {
+    display: block;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    float: left;
+    width: 50%;
+    padding-bottom: 1.3rem;
+  }
+
+  .card-1 a {
+    text-decoration: none;
+  }
+
+  .icon-group-item {
+    background-color: pink;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+     font-size: 110%;
+     line-height: 1.4;
+   }
+
+  .icon-group-item {
+    margin: 0;
+    width: 50%;
+    background-color: green;
+    }
+
+  .social-media {
+    width: 40%;
+    min-height: 200px;
+    display: inline-block;
+  }
+
+  .hours{
+    width: 30%;
+  }
+
+  .location{
+    width: 30%;
+  }
+
+  .social-media-buttons {
+    padding: 50px;
+  }
+
+  .fbook-icon {
+    margin: 6px;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .nav li {
+    float: left;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+      font-size: 120%;
+      line-height: 1.4;
+    }
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+      float: left;
+      width: 25%;
+      padding-bottom: 1.26rem;
+      min-height: 250px;
+    }
+    .nav-check,
+    .nav-label {
+      display: none;
+    }
+
+    .nav {
+      display: block;
+    }
+
+    .nav li {
+      width: auto;
+      float: none;
+      display: inline-block;
+    }
+
+    .nav ol {
+      text-align: center;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+  font-size: 130%;
+  line-height: 1.5;
+}
+
+.banner-text {
+  line-height: 3rem;
+  font-size: 4rem;
+  margin: 0;
+}
+
 }
